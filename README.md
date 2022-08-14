@@ -1,5 +1,6 @@
 # To-Do-React
 
+## [Test this app yourself](https://luciapannunzio.github.io/To-Do-React/)
 
 ![Screenshot from 2022-08-14 18-16-37](https://user-images.githubusercontent.com/89199990/184545779-1e755be6-155e-4591-a3f0-e855fac50c94.png)
 
@@ -47,7 +48,7 @@
  - [ ] CSS3
  - [ ] SASS
  - [ ] SCSS
- - [X] JavaScript
+ - [ ] JavaScript
  - [x] React
  - [ ] Bootstrap
  - [ ] npm
