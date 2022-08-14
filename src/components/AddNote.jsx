@@ -1,18 +1,18 @@
 import { useState } from "react";
 
-// We create a new component.
-//  We destructure the prop handleAddNote.
+// Creating a new component.
+//  Destructure the prop handleAddNote.
 export default function AddNote({ handleAddNote }) {
 
-  // We use the useState hook to save the value, to add a new note. We default it to an empty string, since that's what we want, our text box to start off.
+  // useState hook to save the value, to add a new note. We default it to an empty string, since that's what we want, our text box to start off.
   const [noteText, setNoteText] = useState('');
   
-  // Remainder characters variable
+  // Remainder characters variable.
   const characterLimit = 200;
 
-  // We create this function, we pass the event as an argument, this gets passed to our function
+  // Creating this function, passing the event as an argument, this gets passed to our function.
   const handleChange = (e) => {
-    // Here we subtracts the length of the value that the user has typed from the character limit, if this value is greater or equal to 0 thats mean that the limit hasn't been reached. So we update state with the new value that the user typed. So we get the value from the event(e.target.value). 
+    // We subtracts the length of the value that the user has typed from the character limit, if this value is greater or equal to 0 thats mean that the limit hasn't been reached. So we update state with the new value that the user typed. So we get the value from the event(e.target.value). 
       // The target.value is the value of the text area, in other words what the user has typed. So now our state will get updated every time the value of the text area changes when the user types.
     if(characterLimit - e.target.value.length >= 0) { 
    setNoteText(e.target.value);
@@ -30,16 +30,16 @@ export default function AddNote({ handleAddNote }) {
     }
   }
   
-  // Container div for the component new note
+  // Container div for the component new note.
   return (
     <div className="note new">
       <textarea
         rows="8"
         cols="10 "
         placeholder="Type to add a note..."
-        // This value give us a bit more control over what the text area value is
+        // This value give us a bit more control over what the text area value is.
         value={noteText} 
-        // We update the value with onChange
+        // Updating the value with onChange.
         onChange={handleChange}
       ></textarea>
 
