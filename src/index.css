@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: grey;
 }
 
 code {
@@ -14,12 +15,12 @@ code {
 
 .container {
   background: linear-gradient(to right, #94bbe9, #B0F3F1, #FFCFDF, #FFCFDF, #B0F3F1, #94bbe9);
-  width: 98vw;
-  height: 100vh;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px ;
+  max-width: 960vw;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 15px;
+	padding-left: 15px;
+	min-height: 100vh;
 }
 
 .notes-list {
@@ -38,6 +39,7 @@ textarea {
   /* Resize removes the expandable thing which the text error comes with  */
   resize: none;
   background: linear-gradient(to right, #DAACEC, #94C997);
+  color: grey;
 }
 
 textarea:focus {
@@ -46,9 +48,10 @@ textarea:focus {
 }
 
 .save {
+  color: grey;
   background-color: #DAACEC;
   border: none;
-  border-radius: 10px;
+  border-radius: 9px;
   padding: 5px 10px;
 }
 
@@ -66,11 +69,46 @@ textarea:focus {
  display: flex;
  flex-direction: column;
  justify-content: space-between;
+ /* With pre-warp we keep any spacing that was added to the text */
+ white-space: pre-wrap;
 }
 
 .note-footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.delete-icon:hover {
+  cursor: pointer;
+  color: #DAACEC;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  padding: 5px;
+  margin-bottom: 1.5em;
+}
+
+.search input {
+  width: 100vw;
+  height: 25px;
+  border: none;
+  border-radius: 7px;
+  background:  linear-gradient(#AFF1DA, #DAACEC);
+  margin-top: 2em;
+  color: grey;
+}
+
+.search input:focus {
+  outline: none;
 
 }
+
+.search-icons {
+  color: grey;
+  margin-top: 2em;
+}
+
