@@ -4,6 +4,7 @@ import { nanoid } from "nanoid";
 // Components
 import NotesList from "./components/NotesList";
 import Search from "./components/Search";
+import Header from "./components/Header";
 
 // Style
 import "./App.css";
@@ -18,22 +19,22 @@ function App() {
      // The id it's necessary once we need to delete those notes later, we create a nanoId (A tiny, secure, URL-friendly, unique string ID generator for JavaScript).
     {
       id: nanoid(),
-      text: "This is my first note",
+      text: "My first note",
       date: "11/08/2022",
     },
     {
       id: nanoid(),
-      text: "This is my second note",
+      text: "My second note",
       date: "13/08/2022",
     },
     {
       id: nanoid(),
-      text: "This is my third note",
+      text: "My third note",
       date: "15/08/2022",
     },
     {
       id: nanoid(),
-      text: "This is my new note",
+      text: "My new note",
       date: "20/08/2022",
     },
   ]);
@@ -70,6 +71,9 @@ function App() {
   return (
     
     <div className="container">
+      
+      <Header />
+
       {/* We pass the search state function to the search component as a prop */}
       <Search handleSearchNote={setSearchText}/>
 

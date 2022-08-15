@@ -13,6 +13,16 @@ code {
     monospace;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.header:hover {
+  color: #94C997;
+}
+
 .container {
   background: linear-gradient(to right, #94bbe9, #B0F3F1, #FFCFDF, #FFCFDF, #B0F3F1, #94bbe9);
   max-width: 960vw;
@@ -87,9 +97,10 @@ textarea:focus {
 .search {
   display: flex;
   align-items: center;
-  background: transparent;
+  background:  linear-gradient(#AFF1DA, #DAACEC);
   padding: 5px;
   margin-bottom: 1.5em;
+  border-radius: 7px;
 }
 
 .search input {
@@ -98,8 +109,9 @@ textarea:focus {
   border: none;
   border-radius: 7px;
   background:  linear-gradient(#AFF1DA, #DAACEC);
-  margin-top: 2em;
+  /* margin-top: 7em; */
   color: grey;
+  padding-left: 1.5em;
 }
 
 .search input:focus {
@@ -109,5 +121,10 @@ textarea:focus {
 
 .search-icons {
   color: grey;
-  margin-top: 2em;
+  /* margin-top:4em; */
+  font-size: 1.5em;
+}
+
+.search-icons:hover {
+  color: #94C997;
 }
