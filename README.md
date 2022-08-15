@@ -2,7 +2,8 @@
 
 ## [Test this app yourself](https://luciapannunzio.github.io/To-Do-React/)
 
-![Screenshot from 2022-08-14 18-16-37](https://user-images.githubusercontent.com/89199990/184545779-1e755be6-155e-4591-a3f0-e855fac50c94.png)
+![Screenshot from 2022-08-15 12-22-58](https://user-images.githubusercontent.com/89199990/184619217-acdf6a1f-ec3d-40fe-8cb0-b58d26207690.png)
+
 
 
 
