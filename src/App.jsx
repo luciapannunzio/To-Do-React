@@ -19,22 +19,22 @@ function App() {
      // The id it's necessary once we need to delete those notes later, we create a nanoId (A tiny, secure, URL-friendly, unique string ID generator for JavaScript).
     {
       id: nanoid(),
-      text: "My first note",
+      text: "This is my first note",
       date: "11/08/2022",
     },
     {
       id: nanoid(),
-      text: "My second note",
+      text: "This is my second note",
       date: "13/08/2022",
     },
     {
       id: nanoid(),
-      text: "My third note",
+      text: "This is my third note",
       date: "15/08/2022",
     },
     {
       id: nanoid(),
-      text: "My new note",
+      text: "This is my new note",
       date: "20/08/2022",
     },
   ]);
