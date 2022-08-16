@@ -54,6 +54,7 @@
  - [ ] Bootstrap
  - [ ] npm
  - [ ] Dom
+ - [x] NanoId
  
  
  * * *
