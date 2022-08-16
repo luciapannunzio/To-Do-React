@@ -6,10 +6,6 @@ import NotesList from "./components/NotesList";
 import Search from "./components/Search";
 import Header from "./components/Header";
 
-// Style
-import "./App.css";
-
-
 function App() {
   // Notes list stored in state.
   // Since we're going to be actively changing this data, we're using State. Because we're working with lists, we'll store our notes in an array. We initialize a state hook by passing in a value to the use state function, each item in the array, it's going to hold certain things that we need to know about given note.
