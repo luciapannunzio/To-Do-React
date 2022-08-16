@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/luciapannunzio.github.io/static/css/main.4c2acda8.css",
+    "main.js": "/luciapannunzio.github.io/static/js/main.ada60c56.js",
+    "index.html": "/luciapannunzio.github.io/index.html",
+    "main.4c2acda8.css.map": "/luciapannunzio.github.io/static/css/main.4c2acda8.css.map",
+    "main.ada60c56.js.map": "/luciapannunzio.github.io/static/js/main.ada60c56.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4c2acda8.css",
+    "static/js/main.ada60c56.js"
+  ]
+}
