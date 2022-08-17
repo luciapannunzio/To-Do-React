@@ -1,6 +1,6 @@
 # To-Do-React
 
-## [Test this app yourself](https://luciapannunzio.github.io/To-Do-React/)
+## [Test this app yourself](https://to-do-list-lp.vercel.app/)
 
 ![Screenshot from 2022-08-15 12-22-58](https://user-images.githubusercontent.com/89199990/184619217-acdf6a1f-ec3d-40fe-8cb0-b58d26207690.png)
 
