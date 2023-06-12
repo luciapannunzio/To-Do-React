@@ -45,14 +45,14 @@
 
 
 **Developed With**
- - [ ] HTML5
- - [ ] CSS3
+ - [x] HTML5
+ - [x] CSS3
  - [ ] SASS
  - [ ] SCSS
- - [ ] JavaScript
+ - [x] JavaScript
  - [x] React
  - [ ] Bootstrap
- - [ ] npm
+ - [x] npm
  - [ ] Dom
  - [x] NanoId
  
